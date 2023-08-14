@@ -1,0 +1,19 @@
+*{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.animate {
+  animation: fadeInUp 0.9s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
