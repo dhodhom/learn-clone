@@ -5,7 +5,6 @@ import App from "./App.jsx";
 
 import { BrowserRouter } from "react-router-dom";
 
-import "./dist/css/main.css";
 import theme from "./dist/css/theme.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
