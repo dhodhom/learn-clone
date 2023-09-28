@@ -16,6 +16,7 @@ import FooterComponent from "../Components/FooterComponent";
 import logoNourish from "../assets/img/Logo Nourish Connection.png";
 import logoVbd from "../assets/img/VbdImg.png";
 import logoQuarter from "../assets/img/QuarterImg.png";
+import logoAca from "../assets/img/ACALogo.png";
 import flask from "../assets/img/FlaskImg.png";
 import mongoDb from "../assets/img/MongoDbImg.png";
 import jquery from "../assets/img/JqueryImg.png";
@@ -25,6 +26,8 @@ import css from "../assets/img/CssImg.png";
 import ai from "../assets/img/AiImg.png";
 import ps from "../assets/img/PsImg.png";
 import figma from "../assets/img/FigmaImg.png";
+import ReactNativeLogo from "../assets/img/ReactNativeLogo.png";
+import JsLogo from "../assets/img/JavaScriptLogo.png";
 
 import { faRocket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -35,6 +38,7 @@ const ExperiencePage = () => {
   const toolsNourish = [flask, mongoDb, jquery, bootsrap, html, css];
   const toolsVbd = [ai, ps];
   const toolsQuarter = [ai, ps, figma];
+  const toolsACA = [ReactNativeLogo, JsLogo];
   return (
     <div>
       {/* Navabar Start */}
@@ -83,6 +87,25 @@ const ExperiencePage = () => {
               Programing
             </Heading>
             {/* Subtitle End*/}
+
+            {/* Card Start */}
+            <CardComponent
+              uni='PT. Abhimata Citra Abadi (EMTEK GROUP)'
+              fieldOfStudy='Intern Mobile Developer (React Native)'
+              year='August 2023 - Present'
+              logo={logoAca}
+              desc='Description'
+              activityPoint={[
+                <ListItem key={1}>
+                  Create / develop mobile app internal company using React
+                  Native by utilizing REST API for authorization, data access
+                  and session handling.
+                </ListItem>,
+              ]}
+              titleTools='Technology Used:'
+              logoTools={toolsACA}
+            />
+            {/* Card End */}
 
             {/* Card Start */}
             <CardComponent
