@@ -120,7 +120,7 @@ const HomePage = () => {
                           "primary.whiteDoff"
                         )}
                       >
-                        Student majoring in Informatics Engineering. I have
+                        {/* Student majoring in Informatics Engineering. I have
                         interest in programming and graphic design. <br />{" "}
                         Already has some experience in the field of Programing
                         (Website development) and Graphic Design. <br />
@@ -128,7 +128,13 @@ const HomePage = () => {
                         because of me really believe that learning never ends,
                         and I always eager to explore technology and trends the
                         latest in the world of design and information
-                        technology.
+                        technology. */}
+                        Student informatics engineering with internship
+                        experience in various company, have interest and skills
+                        in Mobile App Development, Website Development and
+                        Graphic Design. Committed and responsible in the
+                        position being worked on. Dedicated to finding places
+                        that support learning and skills for the future.
                       </Text>
                     </CardBody>
 

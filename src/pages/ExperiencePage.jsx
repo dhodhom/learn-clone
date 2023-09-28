@@ -149,7 +149,7 @@ const ExperiencePage = () => {
             <CardComponent
               uni='Intern Virtual Blind Date'
               fieldOfStudy='Graphic Designer'
-              year='May 2022 - August 20223'
+              year='May 2022 - August 2023'
               logo={logoVbd}
               desc='Description'
               activityPoint={[
