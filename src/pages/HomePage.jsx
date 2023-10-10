@@ -110,7 +110,7 @@ const HomePage = () => {
                           "primary.whiteDoff"
                         )}
                       >
-                        Muhammad Arkhab
+                        Lukman Nurhakim
                       </Heading>
 
                       <Text
