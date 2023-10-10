@@ -8,7 +8,7 @@ const FooterComponent = () => {
       fontWeight={"hairline"}
     >
       <Flex align='center' justify='center'>
-        <Text>&copy; 2023 Arkhab.</Text>
+        <Text>&copy; 2023 Lukman Nurhakim.</Text>
       </Flex>
     </Box>
   );

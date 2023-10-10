@@ -100,7 +100,7 @@ const HomePage = () => {
                           "primary.whiteDoff"
                         )}
                       >
-                        Hi! I am,
+                        Halo! Saya,
                       </Heading>
                       <Heading
                         size={{ base: "lg", lg: "xl" }}
@@ -129,12 +129,7 @@ const HomePage = () => {
                         and I always eager to explore technology and trends the
                         latest in the world of design and information
                         technology. */}
-                        Student informatics engineering with internship
-                        experience in various company, have interest and skills
-                        in Mobile App Development, Website Development and
-                        Graphic Design. Committed and responsible in the
-                        position being worked on. Dedicated to finding places
-                        that support learning and skills for the future.
+                        Saya adalah seorang lulusan S1 Jurusan Teknik Informatika STMIK Dharma Negara Bandung, sudah bekerja sejak tahun 2010 di IT Consultant sebagai Full Stack Developer, terbiasa membuat Website Application menggunakan bahasa pemrograman PHP dan basis data SQL Server/MySQL/PostgreSQL, saat ini saya sedang mendalami teknologi pemrograman terbaru seperti Tech Stack MERN (MongoDb, Express, ReactJs, NodeJs)
                       </Text>
                     </CardBody>
 
@@ -162,7 +157,7 @@ const HomePage = () => {
 
                       <Flex ml='15px' gap='2'>
                         <motion.a
-                          href='https://www.linkedin.com/in/muhammad-arkhab/'
+                          href='https://www.linkedin.com/in/dhodhom/'
                           whileHover={{ scale: 1.1 }}
                           whileTap={{ scale: 0.9 }}
                         >
@@ -172,7 +167,7 @@ const HomePage = () => {
                             size='xl'
                           />
                         </motion.a>
-
+                        {/**
                         <motion.a
                           href='https://www.instagram.com/artkhabp/'
                           whileHover={{ scale: 1.1 }}
@@ -184,9 +179,9 @@ const HomePage = () => {
                             size='xl'
                           />
                         </motion.a>
-
+                           */}
                         <motion.a
-                          href='https://github.com/Arkhabp'
+                          href='https://github.com/dhodhom'
                           whileHover={{ scale: 1.1 }}
                           whileTap={{ scale: 0.9 }}
                         >
@@ -198,7 +193,7 @@ const HomePage = () => {
                         </motion.a>
 
                         <motion.a
-                          href='arkhabagdana1@gmail.com'
+                          href='dhodhom@gmail.com'
                           whileHover={{ scale: 1.1 }}
                           whileTap={{ scale: 0.9 }}
                         >
@@ -246,49 +241,22 @@ const HomePage = () => {
 
             {/* Card Education Start */}
             <CardEducation
-              uni='Universitas Pamulang'
-              fieldOfStudy="Bachelor's degree, Informatics Engineering"
-              year='2021 - Present'
+              uni='STMIK Dharma Negara, Bandung'
+              fieldOfStudy="S1, Teknik Informatika"
+              year='2017'
               logo={logoUnpam}
-              desc='Activity'
+              desc='Detail Info'
               activityPoint={[
                 <ListItem key={1}>
-                  Abdi Jurnal Publikasi (AJP) Ragam Modus Cyber Crime di Era
-                  Digital 4.0. ISSN 2963- 3486.
+                  Grade 3.1
                 </ListItem>,
                 <ListItem key={2}>
                   {" "}
-                  Pengabdian Kepada Masyarakat (PKM) Student socialization Ragam
-                  Modus Cyber Crime di Era Digital 4.0 2023.
-                </ListItem>,
-                <ListItem key={3}>
-                  Pengabdian Kepada Masyarakat (PKM) Lecturer socialization
-                  Penggunaan Google Form (MTs Mathlaul Anwar Pamulang) 2022.
+                  No. Ijazah : 0215.03.0158
                 </ListItem>,
               ]}
             />
-            <CardEducation
-              uni='Lx International - LearningX'
-              fieldOfStudy='Essential Programming Course - Full Stack Web Development'
-              year='February 2023 - June 2023'
-              logo={logoLearningX}
-              activity='Essential Programming Course [Studi Independent LearningX x Kampus Merdeka Batch 4], is course to become a full stack web developer, studying the entire website creation process from the front-end to the back-end. In this course I learned : 
-        '
-              desc='Activity'
-              activityPoint={[
-                <ListItem key={1}>
-                  About full stack web developer use Flask, MongoDb, Bootsrap,
-                  Bulma, and JavaScript.
-                </ListItem>,
-                <ListItem key={2}>
-                  Deploy website project using Glitch.
-                </ListItem>,
-                <ListItem key={3}>
-                  Build the Nourish Connection website with the team for the
-                  final project.
-                </ListItem>,
-              ]}
-            />
+            
             {/* Card Education End */}
           </Box>
         </motion.div>

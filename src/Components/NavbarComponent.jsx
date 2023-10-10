@@ -55,7 +55,9 @@ const NavbarComponent = () => {
                 Experience
               </Heading>
             </Link>
-
+            
+            {
+            /** 
             <Link to='/portofolio'>
               <Heading
                 ml={8}
@@ -69,11 +71,13 @@ const NavbarComponent = () => {
                 Portofolio
               </Heading>
             </Link>
+            */
+          }
           </Box>
           <Spacer />
           <Flex alignItems='center'>
             <a
-              href='https://drive.google.com/file/d/1P6NFdaVxn7UrLb05EoJq-qpCze0M_i8Y/view?usp=sharing'
+              href='https://drive.google.com/file/d/1IGc_6VUFq3DG0vV8qKHCm09ArQI3jkEC/view?usp=drive_link'
               target='_blank'
               rel='noopener noreferrer'
             >
