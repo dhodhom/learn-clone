@@ -13,10 +13,6 @@ import NavbarComponent from "../Components/NavbarComponent";
 import CardComponent from "../Components/CardComponent";
 import FooterComponent from "../Components/FooterComponent";
 
-import logoNourish from "../assets/img/Logo Nourish Connection.png";
-import logoVbd from "../assets/img/VbdImg.png";
-import logoQuarter from "../assets/img/QuarterImg.png";
-import logoAca from "../assets/img/ACALogo.png";
 import logoJbi from "../assets/img/jbi.png";
 import logoMede from "../assets/img/mede.png";
 import flask from "../assets/img/FlaskImg.png";
@@ -94,6 +90,11 @@ const ExperiencePage = () => {
             {/* Subtitle End*/}
 
             {/* Card Start */}
+            <motion.a
+                          href='https://jayabeton.com/'
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }} target="_blank"
+                        >
             <CardComponent
               uni='PT. Jaya Beton Indonesia'
               fieldOfStudy='Full Stack Web Developer (PHP)'
@@ -107,10 +108,15 @@ const ExperiencePage = () => {
               ]}
               titleTools='Technology Used:'
               logoTools={toolsPHP}
-            />
+            /></motion.a>
             {/* Card End */}
 
             {/* Card Start */}
+            <motion.a
+                          href='https://www.mede.co.id/'
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }} target="_blank"
+                        >
             <CardComponent
               uni='PT. Mede Media Softika'
               fieldOfStudy='Full Stack Web Developer (PHP)'
@@ -124,7 +130,7 @@ const ExperiencePage = () => {
               ]}
               titleTools='Technology Used:'
               logoTools={toolsPHP}
-            />
+            /></motion.a>
             {/* Card End */}
 
           </Box>

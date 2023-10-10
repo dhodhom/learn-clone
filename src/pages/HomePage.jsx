@@ -258,7 +258,10 @@ const HomePage = () => {
             />
             
             {/* Card Education End */}
+            
           </Box>
+
+          
         </motion.div>
       </AnimatePresence>
       {/* Footer Start*/}
